@@ -99,7 +99,7 @@ const map = new Map({
       },
       school: {
         type: "vector",
-        url: "pmtiles:///school.pmtiles",
+        url: `pmtiles://${import.meta.env.BASE_URL}school.pmtiles`,
         minzoom: 0,
         maxzoom: 13,
         attribution: "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-2023.html' target='_blank'>国土数値情報 学校データ（2023年度）</a>"
